@@ -1,12 +1,14 @@
-# Template Puppet Module for Boxen
+# FileZilla Puppet Module for Boxen
 
 [![Build Status](https://travis-ci.org/dieterdemeyer/puppet-filezilla.png?branch=master)](https://travis-ci.org/dieterdemeyer/puppet-filezilla)
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
+include filezilla
+
+class { 'filezilla':
+  version => '3.7.3'
 }
 ```
 
