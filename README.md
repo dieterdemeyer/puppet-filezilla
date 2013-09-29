@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/dieterdemeyer/puppet-filezilla.png?branch=master)](https://travis-ci.org/dieterdemeyer/puppet-filezilla)
 
+Install [FileZilla](https://filezilla-project.org/), an Open-source (GNU GPL) FTP client for Windows, Mac OS X and GNU/Linux.
+
 ## Usage
 
 ```puppet
