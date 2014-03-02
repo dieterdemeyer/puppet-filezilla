@@ -1,13 +1,13 @@
-# Public: Install OmniDiskSweeper to /Applications
+# Public: Install FileZilla to /Applications
 #
 # Examples
 #
 #  include filezilla
 #  class { 'filezilla':
-#    version => '3.7.3'
+#    version => '3.7.4.1'
 #  }
 #
-class filezilla($version='3.7.3') {
+class filezilla($version='3.7.4.1') {
 
   package { "FileZilla-${version}":
     provider => 'compressed_app',
